@@ -26,10 +26,34 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+    Model/zombie.cpp \
+    Model/sun.cpp \
+    Model/shooterplant.cpp \
+    Model/sunflower.cpp \
+    Model/shovel.cpp \
+    Model/oak.cpp \
+    Model/bullet.cpp \
+    Model/bosszombie.cpp \
+    Model/bomb.cpp \
+    Model/score.cpp \
+    Controller/controller.cpp \
+    View/view.cpp \
+    View/level.cpp
 
 HEADERS += \
-        mainwindow.h
+    Model/zombie.h \
+    Model/sun.h \
+    Model/shooterplant.h \
+    Model/sunflower.h \
+    Model/shovel.h \
+    Model/oak.h \
+    Model/bullet.h \
+    Model/bosszombie.h \
+    Model/bomb.h \
+    Model/score.h \
+    Controller/controller.h \
+    View/view.h \
+    View/level.h
 
 FORMS += \
         mainwindow.ui
@@ -38,3 +62,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    resource.qrc

@@ -1,6 +1,7 @@
 #include "controller.h"
 
-Controller::Controller()
+using namespace std;
+Controller::Controller(Level currentLevel):currentLevel(move(currentLevel))
 {
 
 }

@@ -1,2 +1,38 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/images">
+        <file>BackGround 1.png</file>
+        <file>BackGround 2.png</file>
+        <file>BackGround 3.png</file>
+        <file>Ball 1.png</file>
+        <file>Ball 2.png</file>
+        <file>Ball 3.png</file>
+        <file>boss1.png</file>
+        <file>boss2.png</file>
+        <file>boss3.png</file>
+        <file>bossDie1.png</file>
+        <file>bossDie2.png</file>
+        <file>die1.png</file>
+        <file>die2.png</file>
+        <file>die3.png</file>
+        <file>die4.png</file>
+        <file>die5.png</file>
+        <file>Oak1.png</file>
+        <file>Oak2.png</file>
+        <file>Oak3.png</file>
+        <file>Oak4.png</file>
+        <file>ShooterPlant 1.png</file>
+        <file>ShooterPlant 2.png</file>
+        <file>ShooterPlant 3.png</file>
+        <file>ShooterPlant 4.png</file>
+        <file>Shovel.png</file>
+        <file>sun.png</file>
+        <file>SunFlower 1.png</file>
+        <file>SunFlower 2.png</file>
+        <file>toolBar1.jpg</file>
+        <file>toolBar2.jpg</file>
+        <file>toolBar3.jpg</file>
+        <file>zombie1.png</file>
+        <file>zombie2.png</file>
+        <file>zombie3.png</file>
+    </qresource>
+</RCC>
