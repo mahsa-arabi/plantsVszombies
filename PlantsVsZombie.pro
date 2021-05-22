@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -32,13 +32,21 @@ SOURCES += \
     Model/sunflower.cpp \
     Model/shovel.cpp \
     Model/oak.cpp \
-    Model/bullet.cpp \
     Model/bosszombie.cpp \
-    Model/bomb.cpp \
     Model/score.cpp \
     Controller/controller.cpp \
     View/view.cpp \
-    View/level.cpp
+    Model/bullet.cpp \
+    Model/gameovering.cpp \
+    Model/ground.cpp \
+    Model/sunflowerboard.cpp \
+    Model/bombboard.cpp \
+    Model/shovelboard.cpp \
+    Model/oakBoard.cpp \
+    Model/shooterplantboard.cpp \
+    Model/win.cpp \
+    Model/cherrybomb.cpp \
+    Model/buyingthings.cpp
 
 HEADERS += \
     Model/zombie.h \
@@ -47,13 +55,21 @@ HEADERS += \
     Model/sunflower.h \
     Model/shovel.h \
     Model/oak.h \
-    Model/bullet.h \
     Model/bosszombie.h \
-    Model/bomb.h \
     Model/score.h \
     Controller/controller.h \
     View/view.h \
-    View/level.h
+    Model/bullet.h \
+    Model/gameovering.h \
+    Model/ground.h \
+    Model/sunflowerboard.h \
+    Model/bombboard.h \
+    Model/shovelboard.h \
+    Model/oakBoard.h \
+    Model/shooterplantboard.h \
+    Model/win.h \
+    Model/cherrybomb.h \
+    Model/buyingthings.h
 
 FORMS += \
         mainwindow.ui

@@ -1,0 +1,6 @@
+#include "BuyingThings.h"
+
+BuyingThings::BuyingThings()
+{
+
+}

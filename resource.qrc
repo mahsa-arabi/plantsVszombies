@@ -3,9 +3,6 @@
         <file>BackGround 1.png</file>
         <file>BackGround 2.png</file>
         <file>BackGround 3.png</file>
-        <file>Ball 1.png</file>
-        <file>Ball 2.png</file>
-        <file>Ball 3.png</file>
         <file>boss1.png</file>
         <file>boss2.png</file>
         <file>boss3.png</file>
@@ -34,5 +31,27 @@
         <file>zombie1.png</file>
         <file>zombie2.png</file>
         <file>zombie3.png</file>
+        <file>Bullet 1.png</file>
+        <file>Bullet 2.png</file>
+        <file>Bullet 3.png</file>
+        <file>ShooterBord1.png</file>
+        <file>ShooterBord2.png</file>
+        <file>ground1.png</file>
+        <file>groundS.png</file>
+        <file>aokBord2.png</file>
+        <file>bombBord1.png</file>
+        <file>bombBord2.png</file>
+        <file>oakBord1.png</file>
+        <file>sunFBord1.png</file>
+        <file>sunFBord2.png</file>
+        <file>shovelBoard1.jpg</file>
+        <file>shovelBoard2.jpg</file>
+        <file>bomb.png</file>
+        <file>start.jpg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>backGroundSound.mpeg</file>
+        <file>score.mp3</file>
+        <file>bomb.mp3</file>
     </qresource>
 </RCC>
